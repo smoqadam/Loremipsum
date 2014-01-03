@@ -7,11 +7,11 @@ Loremipsum
 
 <?php
 
-echo Lurem::create($lang = Lurem::LANG_FA , $count = 10 , $type = Lurem::TYPE_WORD , $end = '...');
-
+echo Lorem::create($lang = Lorem::LANG_FA , $count = 10 , $type = Lorem::TYPE_WORD , $end = '...');
+?>
 پارامتر ها 
 
-$lang  : زبان متن رو مشخص میکنه که میتونه Lurem::LANG_FA و یا Lurem::LANG_EN باشه
+$lang  : زبان متن رو مشخص میکنه که میتونه Lorem::LANG_FA و یا Lorem::LANG_EN باشه
 $count : بر اساس نوع خروجی که در پارامتر بعدی مشخص میشه تعداد مورد نظر رو می سازه 
 $type : نوع خروجی رو مشخص میکنه که میتونه کلمه ، کاراکتر و پارگراف باشه
 $end : کاراکتر انتهایی که به متن اضافه میشه رو مشخص میکنه که پیش فرض روی سه نقطه است
