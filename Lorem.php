@@ -10,7 +10,7 @@
  * @author     Saeed Moghadam zade <phpro.ir@gmail.com>
  * @copyright  2014-2014 PHPro.ir
  * @version    1.0
- * @link       http://phpro.ir/
+ * @link       http://phpro.ir/?p=1762
  */
 
 class Lorem {
